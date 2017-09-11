@@ -26,3 +26,10 @@ This game was made for a learning project for udacity. As such, there is no lice
 ## Bugs
 
 No known bugs
+
+## Code overview
+
+The game is made of the following files: 
+* **HTML**: index.html contains the index page with the key code
+* **Javascript**: app.js contains all the animations and rules required to make the game work
+* **CSS**: app.css contains the formating principles and a link to the images of the icons
