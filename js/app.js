@@ -210,7 +210,7 @@ $(".fa-repeat").on("click", function(){
 $(".card").on("click", function(){
 		
 		//checks if the class already has the "open" element. Only do the rest of the function if not 
-		if(!$(this).hasClass("open") | !$(this).hasClass("match")){
+		if(!$(this).hasClass("open") & !$(this).hasClass("match")){
 		
 			turncard(this);
 			storecardtype(this);
