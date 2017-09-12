@@ -209,8 +209,8 @@ $(".fa-repeat").on("click", function(){
 
 $(".card").on("click", function(){
 		
-		//checks if the class already has the "open" element. Only do the rest of the function if not 
-		if(!$(this).hasClass("open") & !$(this).hasClass("match")){
+		//checks if the class already has the "open" or "match" element, and if less than 2 cards are open. Only do the rest of the function if not 
+		if(!$(this).hasClass("open") & !$(this).hasClass("match") & open_cards.length <= 1){
 		
 			turncard(this);
 			storecardtype(this);
